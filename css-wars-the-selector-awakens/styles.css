@@ -1,0 +1,24 @@
+/* Global */
+
+body { 
+    background-color: #111111; 
+    color: #eee;
+    font-size: 1.25rem;
+}
+
+/* Typography */
+
+h1 { color: #e2e80f}
+
+p { line-height: 1.5; }
+
+span.credits {
+    color: #49daff;
+    text-decoration: underline;
+}
+span.credits:hover { cursor: pointer; }
+
+#film-description {
+    font-size: 1.125rem;
+    font-style: italic;
+}

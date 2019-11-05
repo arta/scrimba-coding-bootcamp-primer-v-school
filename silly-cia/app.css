@@ -1,0 +1,23 @@
+/* Global */
+
+img {
+    float: left;
+    padding: 1em;
+}
+
+/* Typography */
+
+h1,
+h2 { 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+}
+
+h1 { color: darkgreen; }
+
+p { line-height: 1.5; }
+.p-may-also-like { text-transform: uppercase; }
+
+a { text-decoration: none; }
+a:focus,
+a:hover { text-decoration: underline; }

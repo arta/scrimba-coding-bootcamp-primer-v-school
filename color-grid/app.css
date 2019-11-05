@@ -1,0 +1,58 @@
+/* ------ */
+/* GLOBAL */
+/* ------ */
+
+* { box-sizing: border-box; }
+
+
+/* ---------- */
+/* TYPOGRAPHY */
+/* ---------- */
+
+h1,
+h2 { text-align: center; }
+
+
+/* ------ */
+/* LAYOUT */
+/* ------ */
+
+.container {
+    margin: 0 auto;
+    /* WTF is `font-size; 0;` ? */
+    font-size: 0;
+    max-width: 700px;
+}
+
+.col { 
+    border: 6px solid white; 
+    display: inline-block;
+    height: 110px;
+}
+
+.col-1 {
+    background: #ee2e84;
+    width: 25%;
+}
+
+.col-2 {
+    background: #85cfd8;
+    width: 50%;
+}
+
+.col-3 {
+    background: #8dc63f;
+    width: 75%;
+}
+
+.col-4 { 
+    background: #f5c6d6;
+    width: 100%;
+}
+
+
+/* ----- */
+/* UTILS */
+/* ----- */
+
+.pumpkin { background: #e76e34; }

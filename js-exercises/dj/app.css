@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 6em auto;
+    max-width: 960px;
+    width: 96%;
+}
+
+.disco-square {
+    border: 1px dotted black;
+    margin: 0 auto;
+    width: 50vw; height: 50vw; 
+}
+
+.to-scroll {
+    height: 1px;
+    margin-top: 50em;
+}

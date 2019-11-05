@@ -1,0 +1,351 @@
+/* ------ */
+/* GLOBAL */
+/* ------ */
+
+/* * { border: 1px dotted black; } */
+
+
+/* ---------- */
+/* TYPOGRAPHY */
+/* ---------- */
+
+h1 {
+    color: #0072bb;
+    font-size: 1.375rem;
+    font-weight: 400;
+    padding: 1.675em;
+}
+
+
+/* ------ */
+/* LAYOUT */
+/* ------ */
+
+.container {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+.mast { margin-top: 1em; }
+
+.flag {
+    border: 5px solid rgb(233, 246, 255);
+    height: 387px;
+    width: 580px;
+}
+
+
+/* ------ */
+/* FRANCE */
+/* ------ */
+
+.canvas-france { background: white; }
+
+.blue-france { 
+    background: #012395;
+    display: inline-block;
+    height: 100%;
+    width: 33.333%;
+}
+
+.red-france {
+    background: #ED2939;
+    float: right;
+    height: 100%;
+    width: 33.333%;
+}
+
+
+/* ------- */
+/* GERMANY */
+/* ------- */
+
+.canvas-germany { background: #FFCE00; }
+
+.black-germany {
+    background: black;
+    height: 33.333%;
+}
+
+.red-germany {
+    background: #DD0000;
+    height: 33.333%;
+}
+
+
+/* ---------- */
+/* MADAGASCAR */
+/* ---------- */
+
+.canvas-madagascar { background: white; }
+
+.green-madagascar {
+    background: #007E3A;
+    height: 100%;
+    margin-left: 33.333%;
+}
+
+.red-madagascar {
+    background: #FC3D32;
+    height: 50%;
+}
+
+
+/* ----------- */
+/* SWITZERLAND */
+/* ----------- */
+
+.canvas-swiss {
+    background: white;
+    height: 580px;
+}
+
+.red-swiss-rim {
+    border: 110px solid #FF0000;
+    box-sizing: border-box;
+    position: relative;
+    height: 100%;
+}
+
+.red-swiss-corner {
+    background: #FF0000;
+    height: 35%;
+    position: absolute;
+    width: 35%;
+}
+.red-swiss-corner.ne {
+    top: 0;
+    right: 0;
+}
+.red-swiss-corner.se {
+    bottom: 0;
+    right: 0;
+}
+.red-swiss-corner.sw {
+    bottom: 0;
+    left: 0;
+}
+
+
+/* ------ */
+/* SWEDEN */
+/* ------ */
+
+.canvas-sweed { 
+    background: #FECC00; 
+    position: relative;
+}
+
+.blue-sweed-corner {
+    background: #006AA7;
+    height: 40%;
+    position: absolute;
+    width: 29%;
+}
+
+.blue-sweed-corner.ne {
+    width: 58%;
+    right: 0;
+    top: 0;
+}
+
+.blue-sweed-corner.se {
+    width: 58%;
+    right: 0;
+    bottom: 0;
+}
+
+.blue-sweed-corner.sw {
+    left: 0;
+    bottom: 0;
+}
+
+
+/* ------ */
+/* GAMBIA */
+/* ------ */
+
+.canvas-gambia { background: #3A7728; }
+
+.red-gambia {
+    background: #CE1025;
+    height: 33.333%;
+}
+
+.blue-gambia {
+    background: #0C1C8B;
+    border-top: 21px solid white;
+    border-bottom: 21px solid white;
+    box-sizing: border-box;
+    height: 33.333%;
+}
+
+/* ----- */
+/* TONGA */
+/* ----- */
+
+.canvas-tonga { 
+    background: #C10000; 
+    height: 290px;
+}
+
+.white-tonga-rim {
+    border-top: 20px solid white;
+    border-right: 52px solid white;
+    border-bottom: 20px solid white;
+    border-left: 52px solid white;
+    box-sizing: border-box;
+    height: 50%;
+    position: relative;
+    width: 40%;
+}
+
+.white-tonga-corner {
+    background: white;
+    height: 33.333%;
+    position: absolute;
+    width: 33.333%;
+}
+
+.white-tonga-corner.ne {
+    right: 0;
+    top: 0;
+}
+
+.white-tonga-corner.se {
+    right: 0;
+    bottom: 0;
+}
+
+.white-tonga-corner.sw {
+    left: 0;
+    bottom: 0;
+}
+
+
+/* ----- */
+/* JAPAN */
+/* ----- */
+
+.canvas-japan { 
+    background: white;
+    position: relative;
+}
+
+.red-japan {
+    background: #BC002C;
+    border-radius: 50%;
+    height: 240px; width: 240px;
+    margin: 73px auto; /* (387-240)/2 ~= 73 */
+}
+
+
+/* ------ */
+/* GREECE */
+/* ------ */
+
+.canvas-greece { 
+    background: #0C5EAE;
+    font-size: 0;
+    position: relative;
+}
+
+.white-greece-cross { 
+    background: white;
+    height: 215px; /* 387/9*5 = 215 */
+    position: absolute;
+    width: 215px;
+}
+
+.blue-greece-cross-corner {
+    background: #0C5EAE;
+    height: 86px; /* 387/9*2 = 86 */
+    position: absolute;
+    width: 86px;
+}
+
+.blue-greece-cross-corner.ne {
+    right: 0;
+    top: 0;
+}
+
+.blue-greece-cross-corner.se {
+    right: 0;
+    bottom: 0;
+}
+
+.blue-greece-cross-corner.sw {
+    left: 0;
+    bottom: 0;
+}
+
+/* cannot use % for margin-top because it's calculated from parent's width !!! */
+/* so, no point in using % for height either */
+.white-greece-stripe {
+    background: white;
+    height: 43px; /* 387/9 = 43 */
+    margin-top: 43px;
+}
+
+
+/* ----- */
+/* NIGER */
+/* ----- */
+
+.canvas-niger { 
+    background: #0CAF2B; 
+    height: 497px;
+}
+
+.orange-niger-stripe {
+    background: #E05204;
+    height: 33.333%;
+}
+
+.white-niger-stripe {
+    background: white;
+    height: 33.333%;
+    /* redundant if sun pushed down by its white border */
+    /* position: relative; */
+}
+
+.orange-niger-sun {
+    background: #E05204;
+    border: 13px solid white; /* instead of margin-top, see below */
+    border-radius: 50%;
+    height: 140px;
+    margin: 0 auto; /* margin-top: 13px; collapses, white stripe shifts down */
+    width: 140px;
+}
+
+
+/* -------- */
+/* MALDIVES */
+/* -------- */
+
+/* a container, not a modifier class, to preserve flag's light blue border */
+.canvas-maldives {
+    background: #007E3A;
+    border: 100px solid #D21034;
+    box-sizing: border-box; 
+    height: 100%;
+    position: relative;
+}
+
+.maldives-moon {
+    border-radius: 50%;
+    position: relative;
+    top: 28px; /* (387-200-130)/2 */
+    width: 130px; height: 130px;
+}
+
+.maldives-moon.white {
+    background: white;
+    left: 125px; /* (580-200-130)/2 */
+}
+
+.maldives-moon.green {
+    background: #007E3A;
+    left: 150px; /* (580-200-130)/2 + 25 */
+    position: absolute;
+}

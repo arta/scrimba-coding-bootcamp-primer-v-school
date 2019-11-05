@@ -1,0 +1,114 @@
+/* ------ */
+/* GLOBAL */
+/* ------ */
+
+body {
+    color: #333;
+    font-size: 1.125rem;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* * { border: 1px dotted black; } */
+
+/* ---------- */
+/* TYPOGRAPHY */
+/* ---------- */
+
+h1,
+h2,
+p { margin-top: 0; }
+
+h1,
+h2 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+h1 { font-size: 2.2rem; }
+.h1-main { 
+    background: #ededed; 
+    margin-bottom: 1em;
+    padding-right: .6em;
+    text-align: right;
+}
+
+.h2-blog-post { 
+    background: #efefef; 
+}
+
+.p-site-title {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.p-blog-post-date { 
+    color: gray;
+    margin-right: 1em;
+    font-style: italic;
+    text-align: right; 
+}
+
+
+/* ------ */
+/* LAYOUT */
+/* ------ */
+
+header {
+    background: lightgrey;
+    padding: 1em 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+main { margin-top: 8em; }
+
+article { 
+    border-bottom: 1px solid lightgrey ;
+    margin-bottom: 2em; 
+}
+article:last-child { 
+    border: 0; 
+    margin-bottom: 6em;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 640px;
+    width: 98%;
+}
+
+.site-title {
+    display: inline-block;
+}
+
+.img-blog-post { 
+    float: right;
+    margin: 0 1em 1em;
+}
+
+
+/* --------- */
+/* NAVIGAION */
+/* --------- */
+
+nav {
+    float: right;
+    margin-top: 1em;
+}
+
+.a-nav { 
+    margin-left: .6em; 
+    text-decoration: none;
+}
+.a-nav:focus,
+.a-nav:hover {
+    text-decoration: underline;
+}

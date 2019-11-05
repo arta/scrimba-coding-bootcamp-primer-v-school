@@ -1,0 +1,53 @@
+/* ------ */
+/* GLOBAL */
+/* ------ */
+
+body {
+    font-size: 1.125rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- */
+/* TYPOGRAPHY */
+/* ---------- */
+
+h1 { 
+    margin-bottom: 2em;
+    text-align: center; 
+}
+
+button { 
+    font-size: 1.2rem;
+    padding: .6em 1.4em;
+}
+
+/* ------ */
+/* LAYOUT */
+/* ------ */
+
+.container {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+.buttons { 
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.frame {
+    display: flex;
+    height: 400px; 
+}
+
+.stripe { flex-grow: 1; }
+
+.stripe.border { border: 1px dotted black; }
+
+.red    { background: red; }
+.orange { background: orange; }
+.yellow { background: yellow; }
+.green  { background: green; }
+.blue   { background: blue; }
+.purple { background: purple; }

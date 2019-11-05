@@ -1,0 +1,115 @@
+/* ------ */
+/* GLOBAL */
+/* ------ */
+
+/* * { border: 1px dotted black; } */
+
+
+/* ---------- */
+/* TYPOGRAPHY */
+/* ---------- */
+
+h1,
+h2,
+h3,
+h4,
+p { margin-top: 0; }
+
+h1,
+h2 {
+    font-family: 'Trebuchet MS', 
+        'Lucida Sans Unicode', 'Lucida Grande', 
+        'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h1 { 
+    font-size: 5rem; 
+    margin-bottom: .5em;
+}
+
+.h2-subtitle { display: inline-block; }
+.h2-subtitle,
+.h2-price,
+.h2-date { font-size: 1rem; }
+.h2-price,
+.h2-date { float: right; }
+.h2-price { margin-left: 1em; }
+.h2-section { text-transform: uppercase; }
+.h2-classifieds { 
+    border-bottom: 5px double black;
+    margin-bottom: 0;
+}
+
+.h3-classifieds,
+.h3-card-classifieds,
+.p-card-classifieds { 
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+        Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.h3-classifieds {
+    background: black;
+    color: white;
+    font-size: 1.125em;
+    font-weight: 400;
+    margin-bottom: .25em;
+    padding: 0 0 .125em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.h3-card-classifieds { 
+    font-size: .7em;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.p-card-classifieds { 
+    font-size: .75em; 
+    margin-bottom: 0;
+}
+
+.span-accent-pink { color: hotpink; }
+.span-highlight { background: khaki; }
+
+
+/* ------ */
+/* LAYOUT */
+/* ------ */
+
+header {
+    border-bottom: 1px solid gray;
+    margin: 2em 0; 
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+.section-news { margin-bottom: 2em; }
+
+.section-classifieds { float: left; }
+
+.column {
+    /* uncomment display: to see warning on the float: below */
+    /* display: inline-block;  */
+    float: left;
+    padding: .33em;
+    width: 23%;
+}
+
+.card-classifieds {
+    border-bottom: 2px solid black;
+    padding: .125em 0;
+}
+.card-classifieds.framed {
+    border: 2px solid black;
+    padding: .125em;
+}
+.card-classifieds.grey { 
+    background: lightgrey; 
+    padding: .125em;
+}
